@@ -1,0 +1,19 @@
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin font($size: 1em, $weight: 400, $family: Roboto) {
+  font-size: $size;
+  font-weight: $weight;
+  font-family: $family, Arial, Helvetica, sans-serif;
+}
+
+@mixin section {
+  min-height: 100vh;
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

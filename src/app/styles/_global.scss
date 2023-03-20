@@ -1,0 +1,14 @@
+@import "mixins";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  @include font(1em, 400, "Roboto");
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
